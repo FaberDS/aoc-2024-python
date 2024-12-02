@@ -1,3 +1,4 @@
+# https://adventofcode.com/2024/day/1
 left = []
 right = []
 with open('01_input.txt', 'r') as file:
