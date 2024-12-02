@@ -1,1 +1,5 @@
 adventenv
+.env
+.idea
+puzzle/**
+**/**.html
