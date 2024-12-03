@@ -1,11 +1,11 @@
-# test_day_01.py
+# test_day_03.py
 
 import pytest
-from exercises.day_01 import part1, part2
+from exercises.day_03 import part1, part2
 
 # List of examples: (input_data, expected_answer_a, expected_answer_b)
 examples = [
-    ('3   4\n4   3\n2   5\n1   3\n3   9\n3   3', '11', '31'),
+    ("xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))", 161, 48),
 ]
 
 @pytest.mark.parametrize("input_data, expected_a, expected_b", examples)
