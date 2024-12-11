@@ -57,12 +57,13 @@ if __name__ == "__main__":
     day = 11
     puzzle = Puzzle(year=year, day=day)
     input_data = puzzle.input_data
-    input_data = "0 1 10 99 999"
-    stones = utils.parser.split_numbers(input_data, " ")
 
     expect_1 = 216996
     expect_2 = 257335372288947
     # Solve Part 1
+
+    stones = utils.parser.split_numbers(input_data, " ")
+
     start_time_part_1 = time.perf_counter()
 
     answer1 = solve(stones,25)
